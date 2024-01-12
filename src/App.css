@@ -1,14 +1,36 @@
 body {
   font-family: 'Arial', sans-serif;
-  margin: 0;
+  margin: 10px;
   padding: 0;
+  background-image: url(./img/banner.webp);
+
 }
 
 header {
-  background-color: #ced631;
-  color: rgb(0, 0, 0);
+  background-color: #fcb900;
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+.head {
+  background-color: black;
   text-align: center;
+  color: white;
+}
+
+.logo {
+  padding-left: 25px;
+  width: 70px; 
+  height: 50px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 nav ul {
@@ -17,7 +39,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 nav a {
@@ -25,42 +47,41 @@ nav a {
   color: white;
 }
 
-main {
-  padding: 20px;
-}
-
 footer {
-  background-color: #5965e9;
-  color: white;
+  background-color: white;
+  color: rgb(166, 166, 166);
   padding: 20px;
   text-align: center;
+  margin: 15px;
+  margin-left: 900px;
+  width: 450px;
 }
 
 .feedback-form form {
-  margin-top: 20px;
-  /* width: 200px;
-  height: 100px; */
+  margin: 20px;
 }
 
 .feedback-form button {
-  padding: 10px;
   margin-right: 10px;
-  background-color: #04f939;
-  margin: 2%;
+  background-color: #35b6d6;
+  margin: 10px;
+  height: 25px;
 }
 
 .subscribe-form input,
 .subscribe-form button {
   padding: 10px;
   margin-right: 10px;
-  background-color: #f90404;
+  background-color: #eb3223;
   margin: 20px;
 }
 
 
 .social-container {
-  background: #eee;
-  padding: 25px 50px;
+  background: #cfcbcb;
+  width: 60px;
+  height: 130px;
+  margin-top: 100px;
 }
 
 a.social {
@@ -86,6 +107,12 @@ a.twitter {
 }
 
 a.instagram {
-  color: black;
+  color: rgb(230, 36, 36);
+}
+
+.socialFeedback {
+  padding: 20px;
+  display: flex;
+  margin: 15px;
 }
 
